@@ -1,0 +1,36 @@
+.hero-section {
+ background-image: 
+         radial-gradient(circle at top left,#FFFFFF 0%,rgba(255, 255, 255, 0) 100%),
+        url('/images/radu-florin-CwTBt6jyagQ-unsplash\ 1.jpg'), url('/images/radu-florin-CwTBt6jyagQ-unsplash\ 4.jpg');
+background-repeat: no-repeat, no-repeat;
+background-position: right top;
+
+
+
+}
+
+.hero {
+    max-width: 440px;
+    padding-top: 175px;
+    padding-bottom: 336px;
+}
+
+.hero-title {
+    max-width: 440px;
+    padding-bottom: 30px;
+    font-family: $secondary-font-family;
+    font-style: bold;
+    font-size: 65px;
+    color: $secondary-text-color;
+}
+
+.section-hero-text {
+    max-width: 420px;
+    height: 123px;
+    color: $primary-text-color;
+    // font-weight: 400;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1.57;
+
+}

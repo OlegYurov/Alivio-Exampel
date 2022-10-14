@@ -1,0 +1,26 @@
+.storyOfSuccess-section {
+  padding: 230px 206px 177px 207px;
+  display: flex;
+  align-items: center;
+  background-color: #245852;
+}
+
+.tittle-storyOfSuccess {
+  @include titleH2(#ffffff);
+  width: 700;
+  margin-bottom: 33px;
+}
+
+.text-storyOfSuccess {
+  font-family: $primary-font-family;
+  width: 600;
+  margin-bottom: 57px;
+  font-size: 25px;
+  line-height: 1.57;
+  color: #ffffff;
+}
+
+.storyOfSuccess-video {
+  width: 897px;
+  height: 516px;
+}

@@ -1,0 +1,23 @@
+.btn {
+    display: flex;
+        font-family: $primary-font-family;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        border-radius: 4px;
+        border-color: transparent;
+        text-align: center;
+        color: #ffffff;
+        background-color: #01996D;
+        cursor: pointer;
+}
+.header-btn-start {
+padding: 13px 50px 13px 50px;
+}
+
+.btn-storyOfSuccess,
+.section-hero-btn {
+        padding: 20px 50px ;
+}
+
+

@@ -1,0 +1,13 @@
+@mixin centeredFlex($type: flex) {
+  display: $type;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin titleH2($color: color) {
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.57;
+  color: $color;
+}

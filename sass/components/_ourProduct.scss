@@ -1,0 +1,125 @@
+.ourProduct-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 275px 168px 275px;
+}
+
+// .ourProduct-foto {
+//     width: 428px;
+// background-image: #01996D 20%;
+
+// }
+.ourProduct-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ourProduct-fotoCardWrapper {
+  position: relative;
+  padding-left: 60px;
+  padding-bottom: 75px;
+}
+.ourProduct-fotoBg {
+  width: 640px;
+  height: 574px;
+  box-sizing: border-box;
+  background-image: url('/images/court-cook-TSZo17r3m0s-unsplash-removebg\ 1.png');
+
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-color: rgba(1, 153, 109, 0.2);
+  border-radius: 18px;
+}
+
+.ourProduct-card {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 296px;
+  height: 294px;
+  padding-top: 22px;
+  text-align: center;
+  box-shadow: 0px 3.62px 18.11px 0px rgba(165, 165, 165, 0.25);
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ourProduct-card-firstString {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 1.56;
+  margin-bottom: 16px;
+}
+.ourProduct-card-firstString::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  width: 100%;
+  height: 1px;
+
+  background-color: #000000;
+}
+.ourProduct-card-foto {
+  width: 58px;
+  height: 58px;
+  background-image: url('/images/court-cook-TSZo17r3m0s-unsplash-removebg\ 2.png');
+  background-color: rgba(1, 153, 109, 0.2);
+  background-position: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.ourProduct-card-name {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.ourProduct-card-title {
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.ourProduct-card-list {
+  list-style: disc;
+  text-align: start;
+  padding-left: 65px;
+}
+
+.ourProduct-card-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.ourProduct-textWrapper {
+  width: 584px;
+}
+.ourProduct-firstString {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.58;
+  color: #424242;
+}
+
+.ourProduct-title {
+  @include titleH2($secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.ourProduct-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.44;
+  color: $primary-text-color;
+  margin-bottom: 40px;
+}
+.ourProduct-btn {
+  padding: 20px 50px;
+}

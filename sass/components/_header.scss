@@ -1,0 +1,58 @@
+.header {
+  height: 85px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  margin-right: 172px;
+  background: url('/images/logo.svg');
+  fill: #01996d;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+}
+
+.header-sign {
+  margin-right: 35px;
+}
+
+.navigation,
+.nav-list {
+  @include centeredFlex;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 72px;
+}
+.nav-list-item {
+  @extend %list-style-none;
+}
+
+.nav-list-link {
+  font-family: $primary-font-family;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: Left;
+  vertical-align: Top;
+  color: #292929;
+  @extend %link-decoration-none;
+}
+
+.header-sign {
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: Left;
+  vertical-align: Top;
+  color: #000000;
+}

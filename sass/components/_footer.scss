@@ -1,0 +1,26 @@
+.footer {
+  padding-top: 95px;
+  padding-bottom: 144px;
+  background-color: #245852;
+}
+.footer-logo {
+  display: inline-block;
+  @extend %link-decoration-none;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.36;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.footer-list-item a {
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 1.2;
+  @extend %link-decoration-none;
+  color: #ffffff;
+}
