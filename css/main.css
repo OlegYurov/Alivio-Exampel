@@ -84,7 +84,7 @@ img {
 
 .header-logo {
   margin-right: 172px;
-  background: url("./images/logo.svg");
+  background: url("../images/logo.svg");
   fill: #01996d;
 }
 
@@ -139,7 +139,7 @@ img {
 }
 
 .hero-section {
-  background-image: radial-gradient(circle at top left, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url("./images/radu-florin-CwTBt6jyagQ-unsplash 1.jpg"), url("./images/radu-florin-CwTBt6jyagQ-unsplash 4.jpg");
+  background-image: radial-gradient(circle at top left, #ffffff 0%, rgba(255, 255, 255, 0) 100%), url("../images/radu-florin-CwTBt6jyagQ-unsplash 1.jpg"), url("../images/radu-florin-CwTBt6jyagQ-unsplash 4.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: right top;
 }
@@ -347,7 +347,7 @@ img {
   height: 574px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: url("./images/court-cook-TSZo17r3m0s-unsplash-removebg 1.png");
+  background-image: url("../images/court-cook-TSZo17r3m0s-unsplash-removebg 1.png");
   background-position: 40%;
   background-repeat: no-repeat;
   background-color: rgba(1, 153, 109, 0.2);
@@ -392,7 +392,7 @@ img {
 .ourProduct-card-foto {
   width: 58px;
   height: 58px;
-  background-image: url("./images/court-cook-TSZo17r3m0s-unsplash-removebg 2.png");
+  background-image: url("../images/court-cook-TSZo17r3m0s-unsplash-removebg 2.png");
   background-color: rgba(1, 153, 109, 0.2);
   background-position: center;
   margin: auto;
